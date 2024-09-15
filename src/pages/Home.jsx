@@ -1,9 +1,9 @@
-import { Sidebar } from "../components";
+import { Blog } from "../components";
 
 function Home() {
     return (
         <div>
-            <Sidebar />
+            <Blog />
         </div>
     );
 }

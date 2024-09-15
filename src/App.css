@@ -20,6 +20,13 @@
   font-weight: 600;
   line-height: 20px;
   /* 147.465% */
+  transition: all 200ms;
+}
+
+.wallet-btn:hover {
+  color: #242424;
+  background: #fff;
+
 }
 
 .swap {
@@ -50,6 +57,10 @@
   background: url('./assets/bg-design.svg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.dashboard::-webkit-scrollbar {
+  stroke-width: 0px;
 }
 
 @media(width<720px) {

@@ -19,7 +19,14 @@ import di1 from './di1.svg'
 import di2 from './di2.svg'
 import di3 from './di3.svg'
 import di4 from './di4.svg'
+import chainarrow from './chainarrow.svg'
+import chain1 from './chain1.svg'
+import chain2 from './chain2.svg'
+import chain3 from './chain3.svg'
+import chain4 from './chain4.svg'
+import blogi from './blog-image.svg'
+import logol from './logo-l.svg'
 export {
 
-    telegram, git, xicon, maskgroup, maskgroup2, maskgroup3, line, logo, menu, handd, handw, sidea, arroww, swap, swapt, i1, i2, di1, di2, di3, di4
+    telegram, git, xicon, maskgroup, maskgroup2, maskgroup3, line, logo, menu, handd, handw, sidea, arroww, swap, swapt, i1, i2, di1, di2, di3, di4, chain1, chain2, chain3, chain4, chainarrow, blogi, logol
 }
