@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import { Airdrop, CryptoHistory, DepositCrypto, WithdrawCrypto } from './components';
 import { Home } from './pages'
+import Dashboard from './components/Dashboard';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
           <Route path="/withdraw" element={<WithdrawCrypto />} />
           <Route path="/airdrop" element={<Airdrop />} />
           <Route path="/history" element={<CryptoHistory />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </>

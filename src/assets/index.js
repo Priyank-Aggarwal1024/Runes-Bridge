@@ -15,7 +15,11 @@ import swap from './swap.svg'
 import swapt from './swap-thin.svg'
 import i1 from './i1.svg'
 import i2 from './i2.svg'
+import di1 from './di1.svg'
+import di2 from './di2.svg'
+import di3 from './di3.svg'
+import di4 from './di4.svg'
 export {
 
-    telegram, git, xicon, maskgroup, maskgroup2, maskgroup3, line, logo, menu, handd, handw, sidea, arroww, swap, swapt, i1, i2
+    telegram, git, xicon, maskgroup, maskgroup2, maskgroup3, line, logo, menu, handd, handw, sidea, arroww, swap, swapt, i1, i2, di1, di2, di3, di4
 }
