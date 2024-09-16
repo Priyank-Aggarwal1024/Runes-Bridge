@@ -11,11 +11,11 @@ function Navbar() {
         <>
             <div className="lg:px-16 lg:py-7 py-4 md:px-8 px-4 h-15 flex justify-between items-center relative">
                 <div className="flex items-center">
-                    <div className="text-black md:text-2xl sm:text-[19px] text-[14px] font-normal font-['Lato']">RunesBridge</div>
+                    <div className="text-black md:text-2xl sm:text-[19px] text-[14px] font-normal font-lato">RunesBridge</div>
                     <img src={logo} className="md:w-[35px] md:h-[39px] w-28px] h-[31px]" alt="Logo" />
                 </div>
                 <div className="links px-6 py-4 lg:flex hidden gap-5 items-center rounded-[12px] border-[1px] border-[#EEE] bg-[#F4F4F4]">
-                    <Link to={"/dashboard"}>
+                    <Link to={"/"}>
                         <img src={telegram} alt="Telegram" />
                     </Link>
                     <img src={line} alt="Line" />
@@ -39,10 +39,10 @@ function Navbar() {
                         <img src={maskgroup3} alt="maskgroup3" />
                     </Link>
                 </div>
-                <div className="flex items-center gap-0.5">
+                <Link to={"/dashboard"} className="flex items-center gap-0.5">
                     <div className="wallet-btn">Wallet</div>
                     <img src={menu} alt="Menu" className="lg:hidden w-5" onClick={() => dispatch(setNavOpen(!navOpen))} />
-                </div>
+                </Link>
             </div>
             {
                 navOpen && <div className="links px-6 py-4 lg:hidden z-[100] absolute w-fit left-4 flex flex-col gap-5 items-center rounded-[12px] border-[1px] border-[#EEE] bg-[#F4F4F4]">

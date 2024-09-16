@@ -263,23 +263,23 @@ function Dashboard() {
                 <div className="w-full grid lg:grid-cols-4 md:grid-cols-2 xxs:grid-cols-4 grid-cols-2 2xl:gap-16 sm:gap-8 gap-4 h-fit">
                     <div className="xl:p-4 md:p-2 p-1.5 rounded-xl border border-[#bcbcbc] flex-col justify-center items-center xl:gap-3 md:gap-2 gap-1 inline-flex ">
                         <img className="xl:w-20 md:w-[55px] sm:w-[48px] w-[30px] xl:h-20 md:h-[55px] sm:h-[48px] h-[30px] relative" src={di1} alt="Dashboard Icon" />
-                        <div className="text-center text-[#0f0f0f] xl:text-xl md:text-[13px] text-[8px] font-normal font-['Inter']">Assets Supported</div>
-                        <div className="text-center text-[#0f0f0f] xl:text-[40px] md:text-[24px] xs:text-[18px] text-[14px] font-bold font-['Inter']">4</div>
+                        <div className="text-center text-[#0f0f0f] xl:text-xl md:text-[13px] text-[8px] font-normal font-inter">Assets Supported</div>
+                        <div className="text-center text-[#0f0f0f] xl:text-[40px] md:text-[24px] xs:text-[18px] text-[14px] font-bold font-inter">4</div>
                     </div>
                     <div className="xl:p-4 md:p-2 p-1.5 rounded-xl border border-[#bcbcbc] flex-col justify-center items-center xl:gap-3 md:gap-2 gap-1 inline-flex ">
                         <img className="xl:w-20 md:w-[55px] sm:w-[48px] w-[30px] xl:h-20 md:h-[55px] sm:h-[48px] h-[30px] relative" src={di2} alt="Dashboard Icon" />
-                        <div className="text-center text-[#0f0f0f] xl:text-xl md:text-[13px] text-[8px] font-normal font-['Inter']">Total Volume</div>
-                        <div className="text-center text-[#0f0f0f] xl:text-[40px] md:text-[24px] xs:text-[18px] text-[14px] font-bold font-['Inter']">$79,556</div>
+                        <div className="text-center text-[#0f0f0f] xl:text-xl md:text-[13px] text-[8px] font-normal font-inter">Total Volume</div>
+                        <div className="text-center text-[#0f0f0f] xl:text-[40px] md:text-[24px] xs:text-[18px] text-[14px] font-bold font-inter">$79,556</div>
                     </div>
                     <div className="xl:p-4 md:p-2 p-1.5 rounded-xl border border-[#bcbcbc] flex-col justify-center items-center xl:gap-3 md:gap-2 gap-1 inline-flex ">
                         <img className="xl:w-20 md:w-[55px] sm:w-[48px] w-[30px] xl:h-20 md:h-[55px] sm:h-[48px] h-[30px] relative" src={di3} alt="Dashboard Icon" />
-                        <div className="text-center text-[#0f0f0f] xl:text-xl md:text-[13px] text-[8px] font-normal font-['Inter']">RB PRICE</div>
-                        <div className="text-center text-[#0f0f0f] xl:text-[40px] md:text-[24px] xs:text-[18px] text-[14px] font-bold font-['Inter']">$0.009</div>
+                        <div className="text-center text-[#0f0f0f] xl:text-xl md:text-[13px] text-[8px] font-normal font-inter">RB PRICE</div>
+                        <div className="text-center text-[#0f0f0f] xl:text-[40px] md:text-[24px] xs:text-[18px] text-[14px] font-bold font-inter">$0.009</div>
                     </div>
                     <div className="xl:p-4 md:p-2 p-1.5 rounded-xl border border-[#bcbcbc] flex-col justify-center items-center xl:gap-3 md:gap-2 gap-1 inline-flex ">
                         <img className="xl:w-20 md:w-[55px] sm:w-[48px] w-[30px] xl:h-20 md:h-[55px] sm:h-[48px] h-[30px] relative" src={di4} alt="Dashboard Icon" />
-                        <div className="text-center text-[#0f0f0f] xl:text-xl md:text-[13px] text-[8px] font-normal font-['Inter']">BTC Fee Rate</div>
-                        <div className="text-center text-[#0f0f0f] xl:text-[40px] md:text-[24px] xs:text-[18px] text-[14px] font-bold font-['Inter']">4</div>
+                        <div className="text-center text-[#0f0f0f] xl:text-xl md:text-[13px] text-[8px] font-normal font-inter">BTC Fee Rate</div>
+                        <div className="text-center text-[#0f0f0f] xl:text-[40px] md:text-[24px] xs:text-[18px] text-[14px] font-bold font-inter">4</div>
                     </div>
                 </div>
             </div>
@@ -288,7 +288,7 @@ function Dashboard() {
                 <div className="p-6 lg:p-10 rounded-[16px] border-[#D9D9D9] border-[1px] ">
 
                     <div className="grid grid-cols-1 gap-10 w-full overflow-x-auto dashboard">
-                        <div className="grid grid-cols-9 md:min-w-[1350px] min-w-[900px] items-center gap-[21px] text-[#1f1f1f] text-[16px] md:text-xl font-normal font-['Inter'] text-center md:bg-transparent bg-[#F4F4F4]">
+                        <div className="grid grid-cols-9 md:min-w-[1350px] min-w-[900px] items-center gap-[21px] text-[#1f1f1f] text-[16px] md:text-xl font-normal font-inter text-center md:bg-transparent bg-[#F4F4F4]">
                             <div className="">Date</div>
                             <div className="">Token</div>
                             <div className="">Amount</div>
@@ -300,7 +300,7 @@ function Dashboard() {
                             <div className="">Status</div>
                         </div>
                         {
-                            dashboardData.map((item, key) => <div key={key} className="grid grid-cols-9 md:min-w-[1350px] min-w-[900px] items-center gap-[21px] text-[#1f1f1f] text-center text-[12px] md:text-base font-normal font-['Inter']">
+                            dashboardData.map((item, key) => <div key={key} className="grid grid-cols-9 md:min-w-[1350px] min-w-[900px] items-center gap-[21px] text-[#1f1f1f] text-center text-[12px] md:text-base font-normal font-inter">
                                 <div className="">{item.date}</div>
                                 <div className="">{item.token}</div>
                                 <div className="">{item.amount}</div>
@@ -329,27 +329,27 @@ function Dashboard() {
                     </div>
                     <div className="justify-start items-center gap-8 flex">
                         <div className="w-[30px] h-[31px] p-2.5 bg-[#f4f4f4] rounded-[5px] flex-col justify-center items-center gap-2.5 inline-flex">
-                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-['Lato']">1</div>
+                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-lato">1</div>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-8 flex">
                         <div className="w-[30px] h-[31px] p-2.5 bg-[#f4f4f4]/0 rounded-[5px] flex-col justify-center items-center gap-2.5 inline-flex">
-                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-['Lato']">2</div>
+                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-lato">2</div>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-8 flex">
                         <div className="w-[30px] h-[31px] p-2.5 bg-[#f4f4f4]/0 rounded-[5px] flex-col justify-center items-center gap-2.5 inline-flex">
-                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-['Lato']">3</div>
+                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-lato">3</div>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-8 flex">
                         <div className="w-[30px] h-[31px] p-2.5 bg-[#f4f4f4]/0 rounded-[5px] flex-col justify-center items-center gap-2.5 inline-flex">
-                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-['Lato']">4</div>
+                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-lato">4</div>
                         </div>
                     </div>
                     <div className="justify-start items-center gap-8 flex">
                         <div className="w-[30px] h-[31px] p-2.5 bg-[#f4f4f4]/0 rounded-[5px] flex-col justify-center items-center gap-2.5 inline-flex">
-                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-['Lato']">5</div>
+                            <div className="self-stretch text-[#1d1f23] text-base font-normal font-lato">5</div>
                         </div>
                     </div>
                     <div className="px-4">

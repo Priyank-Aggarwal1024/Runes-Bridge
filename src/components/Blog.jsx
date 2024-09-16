@@ -9,8 +9,8 @@ function Blog() {
                     <div className="w-full max-w-full">
                         <div className="flex flex-col gap-4 md:gap-6 lg:gap-10 md:-mt-[60px]">
                             <div className="bg-white px-2">
-                                <span className="text-[#ff0025] text-[20px] xs:text-[28px] md:text-[36px] xl:text-5xl font-bold font-['Bricolage Grotesque']">Crypto </span>
-                                <span className="text-[#1f1f1f] text-[20px] xs:text-[28px] md:text-[36px] xl:text-5xl font-bold font-['Bricolage Grotesque']">blog</span>
+                                <span className="text-[#ff0025] text-[20px] xs:text-[28px] md:text-[36px] xl:text-5xl font-bold font-bricolage">Crypto </span>
+                                <span className="text-[#1f1f1f] text-[20px] xs:text-[28px] md:text-[36px] xl:text-5xl font-bold font-bricolage">blog</span>
                             </div>
                             <div className="max-w-full w-full overflow-x-hidden">
                                 <div className="max-w-full w-full overflow-x-auto">
@@ -18,61 +18,61 @@ function Blog() {
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                     </div>
@@ -86,8 +86,8 @@ function Blog() {
                     <div className="w-full max-w-full">
                         <div className="flex flex-col gap-4 md:gap-6 lg:gap-10 md:-mt-[60px]">
                             <div className="bg-white px-2">
-                                <span className="text-[#ff0025] text-[20px] xs:text-[28px] md:text-[36px] xl:text-5xl font-bold font-['Bricolage Grotesque']">Crypto </span>
-                                <span className="text-[#1f1f1f] text-[20px] xs:text-[28px] md:text-[36px] xl:text-5xl font-bold font-['Bricolage Grotesque']">blog</span>
+                                <span className="text-[#ff0025] text-[20px] xs:text-[28px] md:text-[36px] xl:text-5xl font-bold font-bricolage">Crypto </span>
+                                <span className="text-[#1f1f1f] text-[20px] xs:text-[28px] md:text-[36px] xl:text-5xl font-bold font-bricolage">blog</span>
                             </div>
                             <div className="max-w-full w-full overflow-x-hidden">
                                 <div className="max-w-full w-full overflow-x-auto">
@@ -95,61 +95,61 @@ function Blog() {
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                         <div className="w-[303px] p-4 bg-[#f4f4f4] rounded-2xl flex-col justify-center items-start gap-4 inline-flex">
                                             <div className="justify-start items-center gap-2 inline-flex">
                                                 <img className="w-5 h-5 rounded" src={blogi} alt="Blog Card Image" />
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine</div>
                                             </div>
                                             <div className="flex-col justify-start items-start gap-4 flex">
-                                                <div className="text-[#1f1f1f] text-sm font-bold font-['Inter'] uppercase">Bitcoin Magazine, established in 2012</div>
-                                                <div className="text-[#1f1f1f] text-xs font-normal font-['Inter'] capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
+                                                <div className="text-[#1f1f1f] text-sm font-bold font-inter uppercase">Bitcoin Magazine, established in 2012</div>
+                                                <div className="text-[#1f1f1f] text-xs font-normal font-inter capitalize">Bitcoin Magazine, established in 2012, is the oldest and most authoritative source of news, information, and expert commentary on Bitcoin and blockchain technology. Co-founded by Vitalik Buterin and Mihai Alisie, it has grown to become a trusted resource for comprehensive analysis, research, and education on cryptocurrency and the evolving digital economy.</div>
                                             </div>
                                         </div>
                                     </div>
